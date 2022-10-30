@@ -1,491 +1,286 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="cye-nm">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- change the follow href="./photo/youwanttoshowinhead"-->
-    <link rel="shortcut icon" href="./photo/youwanttoshowinhead">
-    <!-- change the follow content="   "-->
-    <meta name="keywords" content="write youe website keywords split by , here">
-    <meta name="description" content="write youe website keywords in here">
-
-    <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
-    <!-- change the follow title-->
-    <title>Write website title here</title>
-
-    <script type="text/javascript" async="" src="./css/ga.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-39824124-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
-    <style id="nightModeStyle">
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body,
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body {
-            -webkit-filter: contrast(91%) brightness(84%) invert(1);
-        }
-    </style>
-    <style id="cyebody">
-        html.cye-enabled.cye-lm body {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyediv">
-        html.cye-enabled.cye-lm div {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyetable">
-        html.cye-enabled.cye-lm th {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-        
-        html.cye-enabled.cye-lm td {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyetextInput">
-        html.cye-enabled.cye-lm input[type=text] {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-        
-        html.cye-enabled.cye-lm textarea {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeselect">
-        html.cye-enabled.cye-lm select {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeul">
-        html.cye-enabled.cye-lm ul {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeChangeByClick">
-        html.cye-enabled.cye-lm .cye-lm-tag,
-        html.cye-enabled.cye-lm.cye-lm-tag {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="style-1-cropbar-clipper">
-        /* Copyright 2014 Evernote Corporation. All rights reserved. */
-        
-        .en-markup-crop-options {
-            top: 18px !important;
-            left: 50% !important;
-            margin-left: -100px !important;
-            width: 200px !important;
-            border: 2px rgba(255, 255, 255, .38) solid !important;
-            border-radius: 4px !important;
-        }
-    </style>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            }
-
-        )(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-82384246-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!--
-        .en-markup-crop-options div div:first-of-type { margin-left: 0px !important; }
-    -->
+	<meta charset="UTF-8">
+	<title>YuishikiFan</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="shortcut icon" href="images/favicon.ico"><!--网页缩略图图标-->
+	<!--<style type="text/css">
+		body {
+			background: url("images/bg2.png"),url("images/bg3.png"),url("images/bg2.png"),url("images/bg2.png"),url("images/bg2.png");
+			background-repeat: repeat, repeat;
+			background-position: bottom left, center center;
+			background-size: 100%,100%;
+		}
+	</style>-->
 </head>
+<body>
+	<aside>
+		<a class="cur_a"><span>YuishikiFan</span></a>
+		<a><span>基本资料</span></a>
+		<a><span>专业技能</span></a>
+		<a><span>工作经验</span></a>
+		<a><span>联系方式</span></a>
+	</aside>
+	<section class="page_one" id="page1">
+		<nav>
+			<div class="nav_wrap">
+				<div class="resume_logo">
+					<a href="index.html">YuishikiFan</a>
+				</div>
+				<div class="nav_bar">
+					<ul class="nav_bar_ul">
+						<li><a href="index.html">个人简历</a></li>
+						<li><a href="https://blog.csdn.net/weixin_43151418/article/details/125121535">GitHub</a></li>
+						<li><a href="https://blog.csdn.net/weixin_43151418/article/details/125006351">CSDN</a></li>
+						<li><a href="https://blog.csdn.net/weixin_43151418/article/details/124986738">BiliBili</a></li>
+						<li><a href="https://blog.csdn.net/weixin_43151418/article/details/124986567">Data</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="cen_con">
+			<div class="portrait">
+				<img onmousemove="this.src='images/22.png'" onmouseout="this.src='images/portrait1.jpg'" / src="images/portrait1.jpg">
+				<!--鼠标放在头像上图片变为前者-->
+			</div>
+			<div class="cen_text">
+				<h2>What do you seek? Where do you seek? Where do you go?</h2>
+				<hr>
+				<h3>YuishikiFan</h3>
+				<h3>M.D Student</h3>
+				<h3>University of Science and Technology of China ▣ Hefei China</h3>
+				<h3>Click and listen to the the BGM</h3>
+			</div>
+
+			<!--<audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="audio/bgm.mp3">-->
+			<!--</audio> 创建一个白框窗口去点击播放音乐-->
+			<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=28568035&auto=1&height=32"></iframe>
+				创建一个网易云窗口去点击播放音乐-->
+
+			<audio id="bgmusic" src="audio/bgm.mp3" autoplay="autoplay" loop="loop" style="display: block; width: 3%; height:3%;"></audio>
+			<script type="text/javascript">
+				function toggleSound() {
+					var music = document.getElementById("bgmusic");//获取ID
+					console.log(music);
+					console.log(music.paused);
+					if (music.paused) { //判读是否播放
+						music.paused = false;
+						music.play(); //没有就播放
+					}
+				}
+				setInterval("toggleSound()", 1);
+			</script>
+			<!--点击网页播放音乐-->
 
 
+		</div>
+		<div class="down_arrow">
+			<a class="scroll"><span></span></a>
+		</div>
 
-<body ryt12610="1">
-    <div id="layout-content" style="margin-top:15px">
+	</section>
 
-        <table>
-            <tbody>
-                <tr>
-                    <td width="670">
-                        <div id="toptitle">
-                            <!-- change the follow as the page iner title-->
-                            <h1><a href='put your homepage website here'>Zhu Fan</a> &nbsp; <a href='put your homepage website here'>朱帆</a> </h1>
-                            <h1>
-                            </h1>
-                        </div>
-                        <h3>
-                            M.D Student</a>
-                        </h3>
-                        <p>
-                            <a href=''>School of Automation</a> &nbsp; <a href=''>自动化学院</a> <br />
-                            <a href=''>University of Science and Technology of China</a> &nbsp; <a href=''>中国科学技术大学大学</a> <br />
-                            <br /> Email: <a href="mailto:yuishiki_ryougi@gmail.com">yuishiki_ryougi@gmail.com</a><br />
-                            <!-- change the follow to your link-->
-                            LinkedIn: <a href="https://www.linkedin.com/in/chenyirong/">https://www.linkedin.com/in/chenyirong</a><br /> Github: <a href="https://github.com/scutcyr/">https://github.com/scutcyr</a><br /> Publons: <a href="https://publons.com/researcher/3026890/yirong-chen/">https://publons.com/researcher/3026890/yirong-chen</a><br />                            ORCID: <a href="http://orcid.org/0000-0002-0207-0067/">http://orcid.org/0000-0002-0207-0067</a><br /> ResearchGate: <a href="https://www.researchgate.net/profile/Yirong_Chen7">https://www.researchgate.net/profile/Yirong_Chen7</a><br />                            CSDN: <a href="https://blog.csdn.net/m0_37201243">https://blog.csdn.net/m0_37201243</a><br />
-                        </p>
-                    </td>
-                    <td>
-                        <div style="float:right">
-                            <img src="/images/cyr_scut_by.jpg" border="0" width="230" />
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+	<section class="page_two" id="page2" >
+		<div class="con_wrap">
+			<div class="tit_wrap">
+				<background ="images/bg1.jpg">
+					<h1>Basic Information</h1>
+					<div class="scissors" style="border-top:1px dashed orange;">
+					</div>
+					<h2> &nbsp;&nbsp;&nbsp;&nbsp;I am a master's student at the University of Science and Technology of China. My tutor is Researcher Zhu Hui.</h2>
+			</div>
+			<div class="myinfo">
+				<table>
+					<tbody>
+						<tr>
+							<td rowspan="6">
+								<img src="images/portrait1.jpg">
+							</td>
+							<td>Name | Zhu Fan</td>
+							<td>Phone | 18330569162</td>
 
+						</tr>
+						<tr>
+							<td>Gender | Man</td>
+							<td>Email | zhufan_misaki@mail.ustc.edu.cn</td>
+						</tr>
+						<tr>
+							<td>Born | 2001.05.30</td>
 
-    <h2>Biography</h2>
-    <!--输入个人介绍和其他内容-->
-    <p>
-        学生，中国科学技术大学硕士在读。
-        我的研究兴趣主要在于 SLAM、三维重建、深度学习。
-    </p>
-    <p>
-        导师 祝辉研究员
-    </p>
+							<td>QQ | 319525623</td>
+						</tr>
+						<tr>
+							<td>Residence | Hefei,Anhui,China</td>
+							<td>Native Place | Tangshan,Hebei,China</td>
+						</tr>
+						<tr>
+							<td>Degree | M.D Student</td>
+							<td>School | USTC</td>
+						</tr>
+						<tr>
+							<td>Major | Pattern Recognition and Intelligent Systems
+							<td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="down_arrow">
+			<a class="scroll"><span></span></a>
+		</div>
+	</section>
+	<section class="page_three" id="page3">
+		<div class="con_wrap">
+			<div class="tit_wrap">
+				<h1>Biography</h1>
+				<div class="scissors" style="border-top:1px dashed orange;">
+				</div>
+				<h2>The direction I'm interested: 3D Reconstruction, SLAM, Driverless Car</h2>
+			</div>
+			<div class="skill_con">
+				<div class="canvas_wrap">
+					<div class="canvas_con">
+						<div class="text_con">
+							<p class="percent">98%</p>
+							<p class="chart_title">C#</p>
+						</div>
+						<canvas id="html5" width=160 height=160></canvas>
+					</div>
+					<div class="canvas_con">
+						<div class="text_con">
+							<p class="percent">93%</p>
+							<p class="chart_title">JAVA</p>
+						</div>
+						<canvas id="css3" width=160 height=160></canvas>
+					</div>
+					<div class="canvas_con">
+						<div class="text_con">
+							<p class="percent">96%</p>
+							<p class="chart_title">HTML</p>
+						</div>
+						<canvas id="js" width=160 height=160></canvas>
+					</div>
+					<div class="canvas_con">
+						<div class="text_con">
+							<p class="percent">99%</p>
+							<p class="chart_title">ORACLE</p>
+						</div>
+						<canvas id="jq" width=160 height=160></canvas>
+					</div>
+				</div>
+				<div class="text_wrap">
+					<p>1.  熟练使用java，基于ssh能快速搭建系统框架。</p>
+					<p>2.  熟练使用java，基于spring boot能快速搭建系统框架。</p>
+					<p>3.  熟练使用HTML/CSS技术，精通js/jquery编程,能够熟练使用angularjs，vue,reactjs等前端框架。</p>
+					<p>4.  熟悉oracle,mysql,sqlserver等各平台安装使用，熟练使用SQL语句增删改查，触发器，存储过程，索引，序列。</p>
+					<p>5.  熟练的使用grunt，gulp等前端工具。</p>
+					<p>6.  熟悉c#语言研发，基于asp.new mvc能快速搭建系统框架，新技术asp.net core做后台数据服务能快速搭建，跨平台使用。</p>
+					<p>7.  熟悉c#语言研发，基于winform的c/s应用程序能快速搭建框架。</p>
+				</div>
+			</div>
 
-    <h2>Education & Experience</h2>
-    <ul>
-        <li>
-            2022.09-Present &nbsp;&nbsp;&nbsp;&nbsp;<b>University of Science and Technology of China</b>
-        </li>
-        <b>Master Reading</b>, Pattern Recognition and Intelligent Systems
+		</div>
+		<div class="down_arrow">
+			<a class="scroll"><span></span></a>
+		</div>
+	</section>
+	<section class="page_four" id="page4">
+		<div class="con_wrap">
+			<div class="tit_wrap">
+				<h1>工作经验</h1>
+				<div class="scissors" style="border-top:1px dashed orange;">
+				</div>
+				<h2>每一次经历就是积累，经历多了，也就成熟了，也就懂的多了。</h2>
+			</div>
+			<div class="work_con">
+				<div class="programe">
+					<div class="work_time">22个月<br>汽车之家官网</div>
+					<div class="work_text">
+						<div class="triangle-left"></div>
+						<div class="exCon">
+							<h4>开发时间：2019 /12--2021 /10</h4>
+							<h5>开发工具：VS2015，VSCode，ORACLE</h5>
+							<p>项目描述：</p>
+							<p>参与与客户交流需求，参与项目整体开发，主要负责首页面各方面数据综合显示，系统采用预加载，通过wcf对硬件控制，实时更新，一些页面设计，数据库的设计，数据测试。</p>
+							<p> 1.数据信息展示块，2.软硬件交互块，3.数据解析块。</p>
+						</div>
+					</div>
+				</div>
+				<div class="programe">
+					<div class="work_time">8个月<br>联想后台研发</div>
+					<div class="work_text">
+						<div class="triangle-left"></div>
+						<div class="exCon">
+							<h4>开发时间：2021 /10--2022 /06</h4>
+							<h5>开发工具：IDEA,VSCode,MYSQL</h5>
+							<p>项目描述：</p>
+							<p>参与与客户交流需求，参与项目整体开发，主要负责首页面各方面数据综合显示，系统采用预加载，实时更新，一些页面设计，数据库的设计，数据测试。 </p>
+							<p>
+								1.设备基础信息 2.部门信息 3.用户信息 4.数据报表 5.调试工具，6.数据监测，7.系统配置等7个大功能块
+								系统采用角色分配，操作分配等权限，实现各个角色的权限功能。精确划分各个部门的职责。
+							</p>
 
-
-        <li>
-            2018.09-2022.06 &nbsp;&nbsp;&nbsp;&nbsp;<b>Shijiazhuang Tiedao University</b>
-        </li>
-        <b>B.E.</b>, Information Engineering
-    </ul>
-
-    <h2>Professional Activities</h2>
-    <ul>
-        <h4>Journal Reviewer<small>[<a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">Publons</a>]</small?</small></h4>
-        <li><em><a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">IEEE Photonics Journal</a></em> (<b>PJ</b>)</li>
-        <li><em><a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">IEEE Access</a></em> (<b>Access</b>)</li>
-    </ul>
-
-
-
-    <h2>Projects</h2>
-    <ol>
-        <li>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="cye-nm">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- change the follow href="./photo/youwanttoshowinhead"-->
-    <link rel="shortcut icon" href="./image/head.jpg">
-    <!-- change the follow content="   "-->
-    <meta name="keywords" content="write youe website keywords split by , here">
-    <meta name="description" content="write youe website keywords in here">
-
-    <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
-    <!-- change the follow title-->
-    <title>Zhu Fan</title>
-
-    <script type="text/javascript" async="" src="./css/ga.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-39824124-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
-    <style id="nightModeStyle">
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body,
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body {
-            -webkit-filter: contrast(91%) brightness(84%) invert(1);
-        }
-    </style>
-    <style id="cyebody">
-        html.cye-enabled.cye-lm body {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyediv">
-        html.cye-enabled.cye-lm div {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyetable">
-        html.cye-enabled.cye-lm th {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-        
-        html.cye-enabled.cye-lm td {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyetextInput">
-        html.cye-enabled.cye-lm input[type=text] {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-        
-        html.cye-enabled.cye-lm textarea {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeselect">
-        html.cye-enabled.cye-lm select {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeul">
-        html.cye-enabled.cye-lm ul {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="cyeChangeByClick">
-        html.cye-enabled.cye-lm .cye-lm-tag,
-        html.cye-enabled.cye-lm.cye-lm-tag {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
-        }
-    </style>
-    <style id="style-1-cropbar-clipper">
-        /* Copyright 2014 Evernote Corporation. All rights reserved. */
-        
-        .en-markup-crop-options {
-            top: 18px !important;
-            left: 50% !important;
-            margin-left: -100px !important;
-            width: 200px !important;
-            border: 2px rgba(255, 255, 255, .38) solid !important;
-            border-radius: 4px !important;
-        }
-    </style>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            }
-
-        )(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-82384246-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!--
-        .en-markup-crop-options div div:first-of-type { margin-left: 0px !important; }
-    -->
-</head>
-
-
-
-<body ryt12610="1">
-    <div id="layout-content" style="margin-top:15px">
-
-        <table>
-            <tbody>
-                <tr>
-                    <td width="670">
-                        <div id="toptitle">
-                            <!-- change the follow as the page iner title-->
-                            <h1><a href='put your homepage website here'>Zhu Fan</a> &nbsp; <a href='put your homepage website here'>朱帆</a> </h1>
-                            <h1>
-                            </h1>
-                        </div>
-                        <h3>
-                            M.D Student</a>
-                        </h3>
-                        <p>
-                            <a href=''>School of Automation</a> &nbsp; <a href=''>自动化学院</a> <br />
-                            <a href=''>University of Science and Technology of China</a> &nbsp; <a href=''>中国科学技术大学大学</a> <br />
-                            <br /> Email: <a href="mailto:yuishiki_ryougi@gmail.com">yuishiki_ryougi@gmail.com</a><br />
-                            <!-- change the follow to your link-->
-                            LinkedIn: <a href="https://www.linkedin.com/in/chenyirong/">https://www.linkedin.com/in/chenyirong</a><br /> Github: <a href="https://github.com/scutcyr/">https://github.com/scutcyr</a><br /> Publons: <a href="https://publons.com/researcher/3026890/yirong-chen/">https://publons.com/researcher/3026890/yirong-chen</a><br />                            ORCID: <a href="http://orcid.org/0000-0002-0207-0067/">http://orcid.org/0000-0002-0207-0067</a><br /> ResearchGate: <a href="https://www.researchgate.net/profile/Yirong_Chen7">https://www.researchgate.net/profile/Yirong_Chen7</a><br />                            CSDN: <a href="https://blog.csdn.net/m0_37201243">https://blog.csdn.net/m0_37201243</a><br />
-                        </p>
-                    </td>
-                    <td>
-                        <div style="float:right">
-                            <img src="/images/cyr_scut_by.jpg" border="0" width="230" />
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-
-    <h2>Biography</h2>
-    <!--输入个人介绍和其他内容-->
-    <p>
-        学生，中国科学技术大学硕士在读。
-        我的研究兴趣主要在于 SLAM、三维重建、深度学习。
-    </p>
-    <p>
-        导师 祝辉研究员
-    </p>
-
-    <h2>Education & Experience</h2>
-    <ul>
-        <li>
-            2022.09-Present &nbsp;&nbsp;&nbsp;&nbsp;<b>University of Science and Technology of China</b>
-        </li>
-        <b>Master Reading</b>, Pattern Recognition and Intelligent Systems
-
-
-        <li>
-            2018.09-2022.06 &nbsp;&nbsp;&nbsp;&nbsp;<b>Shijiazhuang Tiedao University</b>
-        </li>
-        <b>B.E.</b>, Information Engineering
-    </ul>
-
-    <h2>Professional Activities</h2>
-    <ul>
-        <h4>Journal Reviewer<small>[<a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">Publons</a>]</small?</small></h4>
-        <li><em><a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">IEEE Photonics Journal</a></em> (<b>PJ</b>)</li>
-        <li><em><a href="https://publons.com/researcher/3026890/yirong-chen/peer-review/">IEEE Access</a></em> (<b>Access</b>)</li>
-    </ul>
-
-
-
-    <h2>Projects</h2>
-    <ol>
-        <li>
-            2017 - 2019&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="https://raw.githubusercontent.com/scutcyr/scutcyr.github.io/master/certificate/%E9%99%88%E8%89%BA%E8%8D%A3_%E4%BC%98%E7%A7%80%E7%BB%93%E9%A2%98_2017-2019%E5%9B%BD%E5%AE%B6%E7%BA%A7%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE.jpg">Indoor Positioning of Service Robot based on Visible Light Communication</a></b>
-        </li>
-        <b>principal</b>, National Undergraduate Innovative and Entrepreneurial Training Program,
-        <b><font class="highlight">Excellent[优秀结题]</font></b>
-
-
-    </ol>
-
-
-
-    <h2>Publications <small>[<a href="http://orcid.org/0000-0002-0207-0067">ORCID</a>][<a href="https://spie.org/profile/chenyirong">SPIE</a>][<a href="https://www.researchgate.net/profile/Yirong_Chen7?ev=prf_highl">ResearchGate</a>][<a href="https://publons.com/researcher/3026890/yirong-chen/publications/">publons</a>]</small></h2>
-    <ul>
-
-        <li>
-            <a href="https://ieeexplore.ieee.org/document/8941046">Indoor Real-time Three-dimensional Visible Light Positioning System Using Fingerprinting and Extreme Learning Machine</a><a href="https://www.researchgate.net/publication/338161902_Indoor_Real-time_3-D_Visible_Light_Positioning_System_Using_Fingerprinting_and_Extreme_Learning_Machine">[on ResearchGate]<br /></a>
-            <b><a href="https://www.researchgate.net/profile/Yirong_Chen7">Yirong Chen</a>, Weipeng Guan, Jingyi Li, Hongzhan Song</b>
-            <em>IEEE Access</em> (<b>IEEE Access</b>), 2019<br />
-            <p style="margin-top:3px">
-
-            </p>
-        </li>
-    </ul>
-
-
-
-    <h2>Award</h2>
-    <ol>
-        <h4>Competitions</h4>
-        <li><a href="">竞赛名称</a></em> (<b><font class="highlight">奖励等级</font></b>)</li>
-    </ol>
-
-    <ol>
-        <h4>Study and Life</h4>
-        <li><a href="">获奖名称或称号</a> (<b>颁发单位</b>)</li>
-
-    </ol>
-
-    <h2>Volunteer Service</h2>
-    <ol>
-        <li><a href="">2018.10-至今 xxxxxxxx</a> (<b>组织名称</b>)</li>
-
-    </ol>
-
-
-    <div align="center">
-        Last updated by <a href='http://www.yirongchen.com/'>Yirong Chen</a> on March, 22, 2020.
-    </div>
-    <p>
-    </p>
-
-
-
-    <div align="center">
-        © 2018-2019 yirongchen.com. All rights reserved.
-    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="down_arrow">
+			<a class="scroll"><span></span></a>
+		</div>
+	</section>
+	<section class="page_five" id="page5">
+		<div class="con_wrap">
+			<div class="tit_wrap">
+				<h1>联系方式</h1>
+				<div class="scissors" style="border-top:1px dashed orange;">
+					<!--<span></span>剪刀样式-->
+				</div>
+				<h2>如果你有什么需求，请联系我，让我们一起解决。</h2>
+			</div>
+			<div class="contact_detail">
+				<ul class="con_style">
+					<li>
+						<span></span>
+						<p>Anhui ▣ Hefei</p>
+					</li>
+					<li>
+						<span></span>
+						<p>319525623@qq.com</p>
+					</li>
+					<li>
+						<span></span>
+						<p>18330569162</p>
+					</li>
+				</ul>
+				<div class="contact_info">
+					<form action="" method="get">
+						<label>
+							<input type="text" id="username" placeholder="请写上您的名字" required="">
+							<p id="check_username"></p>
+						</label>
+						<label>
+							<input type="text" id="usermail" placeholder="请写上您的邮箱" required="">
+							<p id="check_usermail"></p>
+						</label>
+						<label>
+							<input type="text" id="usertheme" placeholder="请写上您的主题" required="" maxlength="25">
+							<p id="check_usertheme"></p>
+						</label>
+						<label>
+							<textarea id="usercon" placeholder="请写上您的内容" required=""></textarea>
+							<p id="check_usercon"></p>
+						</label>
+						<button>确认发送</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
 </body>
-
+<script type="text/javascript" src="js/main.js" tppabs="https://netdisk.moyublog.com/code_demo/5f172236b4297/js/main.js"></script>
 </html>
