@@ -16,18 +16,24 @@ author_profile: true
 {% endfor %}
 
 ![111](../images/profile.png)
-<div style="float: left; width: 200; box-sizing: border-box; padding-right: 20px;">
-  <img src="../images/profile.png" alt="Alt text" style="width: auto; max-height: calc(4em * 4);">
-</div>
+<p align="left">
+  <img src="../images/profile.png" alt="Your Image" height="100%">
+</p>
 
-<div style="float: left; width: 200; box-sizing: border-box;">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus augue ut ex varius, at varius justo pharetra. Integer et facilisis massa.
-  <br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus augue ut ex varius, at varius justo pharetra. Integer et facilisis massa.
-  <br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus augue ut ex varius, at varius justo pharetra. Integer et facilisis massa.
-  <br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus augue ut ex varius, at varius justo pharetra. Integer et facilisis massa.
-</div>
+<p align="left">
+  Your text here.
+</p>
+<p align="left">
+  Your text here.
+</p>
+<p align="left">
+  Your text here.
+</p>
+<p align="left">
+  Your text here.
+</p>
+
+
+
 
 
