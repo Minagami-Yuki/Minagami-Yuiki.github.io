@@ -11,14 +11,17 @@ redirect_from:
 
 Education
 ======
-* University of Science and Technology of China(USTC), Anhui, China, 09.2022 -- 07.2025(expected)
-  * Master of Control Science and Engineering, GPA: 3.63/4.3
-* Shijiazhuang Tiedao University(STDU), Hebei, China, 09.2018 – 06.2022
-  * Bachelor of Information Engineering, GPA: 3.56/4.0
+* University of Science and Technology of China(USTC),  &nbsp;  Anhui, China,  &nbsp;  09.2022 -- 07.2025(expected)
+
+  Master of Control Science and Engineering, &nbsp; GPA: 3.63/4.3
+  
+* Shijiazhuang Tiedao University(STDU),  &nbsp;  Hebei, China,  &nbsp;  09.2018 – 06.2022
+
+  Bachelor of Information Engineering, &nbsp; GPA: 3.56/4.0
   
 Publications
 ======
-* Zhu, F., et al., SLM-SLAM: A Visual SLAM System Based on Segmented Large-scale Model in Dynamic Scenes (under review)
+* Zhu, F., et al., SLM-SLAM: A Visual SLAM System Based on Segmented Large-scale Model in Dynamic Scenes. IEEE Sensors Journal (under review)
 * Zhu, F., et al., Image Classification Method Based on Improved KNN Algorithm. Journal of Physics: Conference Series, 2021. 1930: p. 012009 (5 pp.)-012009 (5 pp.).( citation frequency: 19)
 
   
