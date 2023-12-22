@@ -11,49 +11,56 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
+* University of Science and Technology of China(USTC), Anhui, China, 09.2022 -- 07.2025(expected)
+  * Master of Control Science and Engineering, GPA: 3.63/4.3
+* Shijiazhuang Tiedao University(STDU), Hebei, China, 09.2018 – 06.2022
+  * Bachelor of Information Engineering, GPA: 3.56/4.0
+  
+Publications
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Zhu, F., et al., SLM-SLAM: A Visual SLAM System Based on Segmented Large-scale Model in Dynamic Scenes (under review)
+* Zhu, F., et al., Image Classification Method Based on Improved KNN Algorithm. Journal of Physics: Conference Series, 2021. 1930: p. 012009 (5 pp.)-012009 (5 pp.).( citation frequency: 19)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  
+Research Experience
+======
+* Research on Small Intelligent Inspection Vehicle for Railway Track Maintenance, 06.2020 – 06.2021
+  * National College Students’ innovation and Entrepreneurship Training Program(Team Leader)
+  * Ministry of Education of the People’s Republic of China
+  * Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.
+  * Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.
+  * Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.
+
+* Research of Safety Monitoring Platform System for Railway Bridge Construction Support, 01.2021 – 01.2022
+  * Science and Technology Innovation Ability Cultivation of College School Students(Team Leader)
+  * Hebei Provincial Department of Science and Technology
+  * Sub-skill 2.3
+    
+* Design and Implementation of Wide-range Autonomous Positioning System for UGV Facing Wild Unstructured Environment, 09.2021 – 06.2022
+  * Bachelor Thesis
+  * STDU
+ 
+* Research on High-precision 3D Reconstruction Technology of Visual SLAM based on Radiation Field, 12.2023-06.2025(expected)
+  * Master Thesis
+  * USTC
+
+Honors & Awards
+======
+* Outstanding Graduate, Hebei Province 2022
+* Excellent Graduation Thesis, STDU 2022
+* First Class Academic Scholarship, USTC 2022
+* Second Class Academic Scholarship, USTC 2023
+* First Class Scholarship, STDU 2018,2020,2021,2022
+* Second Class Scholarship, STDU 2019,2019,2020,2021
+* First Prize of Computer Skills Application Competition, National 2021
+* Second Prize of Conference on Undergraduate Innovation and Entrepreneurship, National 2021
+* Third Prize of the 14th Chinese Collegiate Computing Competition, National 2021
+* First Prize of College Students Engineering Training Comprehensive Ability Competition, Hebei Province 2020
+* Second Prize of The Electric Design Match, Hebei Province 2020
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* language: Chinese(native), English
+* programming: C, C++, Python, VMware, HTML
+  
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
