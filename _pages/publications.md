@@ -15,4 +15,4 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-!(./images/profile.png)
+![](./images/profile.png)
