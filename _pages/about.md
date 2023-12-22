@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second year master's student from [School of Information Science and Technology](https://sist.ustc.edu.cn/), [University of Science and Technology of China]([https://www.pku.edu.cn/](https://ustc.edu.cn/)). My research interest includes computer vision, computer graphics, SLAM, and 3D reconstruction.
+I'm a second year master's student from School of Information Science and Technology, [University of Science and Technology of China (USTC)](https://ustc.edu.cn/). My research interest includes computer vision, computer graphics, SLAM, and 3D reconstruction.
 
 I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
 
