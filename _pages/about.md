@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second year master's student from School of Information Science and Technology, [University of Science and Technology of China (USTC)](https://ustc.edu.cn/), and very fortunate to be advised by Research Fellow Hui Zhu.
+I'm a Master's student in the School of Information Science and Technology, [University of Science and Technology of China (USTC)](https://ustc.edu.cn/), and be advised by Research Fellow Hui Zhu.
 My research interest includes computer vision, computer graphics, SLAM, and 3D reconstruction.
 
 You can find my CV here: [Fan Zhu's Curriculum Vitae](https://minagami-yuki.github.io/Minagami-Yuiki.github.io/cv/), and you can download it from [here](../assets/Curriculum_Vitae.pdf).
