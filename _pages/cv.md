@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
 Education
 ======
 <div style="display: flex; justify-content: space-between; align-items: center;">
