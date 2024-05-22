@@ -81,13 +81,13 @@ Research Experience
  
 * ***Research on Multi-functional Sand Removal Unmanned Vehicle for Railway Applications (Team Leader)***, 01.2021 - 01.2022
   * **Overview:** Developed a road-railway dual-purpose UGV to clean railway tracks to solve the problem of wind-blown sand accumulation that affects train safety in western China.
-  * Designed a road-railway dual-use unmanned vehicle chassis and bucket wheel type sand removal device, which increased operational efficiency by 30\%.
+  * Designed a road-railway dual-use unmanned vehicle chassis and bucket wheel type sand removal device, which increased operational efficiency by 30%.
   * Utilized STM32 chip and various sensors to collect environmental data, enhancing real-time monitoring capabilities.
   * Implemented MQTT protocol for uploading environmental data to a cloud platform, realizing data visualization to facilitate analysis.
 
 * ***Research on Small Intelligent Inspection Vehicle for Railway Track Maintenance (Team Leader)***, 06.2020 - 06.2021
   * **Overview:** Designed and built a small UGV to address the high cost and heavy labor involved in traditional railway track inspection and maintenance.
-  * Implemented a small target detection algorithm based on improved YOLOv5 to detect bolt states and static foreign objects, and the detection accuracy is 98.5\%.
+  * Implemented a small target detection algorithm based on improved YOLOv5 to detect bolt states and static foreign objects, and the detection accuracy is 98.5%.
   * Developed a multi-target tracking algorithm using DeepSort for detecting dynamic foreign object invasion.
   * Applied GMapping for autonomous positioning and environment modeling, enhancing location precision in complex environments.
 <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
