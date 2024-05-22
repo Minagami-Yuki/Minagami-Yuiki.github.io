@@ -21,7 +21,6 @@ Education
     <em>GPA: 3.63/4.3, Average Score: 86.67</em>
   </div>
 </div>
-<br>
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <strong>Shijiazhuang Tiedao University (STDU), Hebei, China</strong><br>
