@@ -9,21 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
-| **University of Science and Technology of China (USTC), Anhui, China** | **09.2022 -- 07.2025** |
-|:---------------------|----------------------:|
-| M.S. in Control Science and Engineering           |      GPA: 3.63/4.3, Average Score: 86.67     |
-| **Shijiazhuang Tiedao University (STDU), Hebei, China** | **09.2018 - 06.2022** |
-| B.E. in Information Engineering          |      GPA: 3.56/4.3, Average Score: 86.65     |
+Education
+======
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <strong>University of Science and Technology of China (USTC), Anhui, China</strong><br>
+    <em>M.S. in Control Science and Engineering</em>
+  </div>
+  <div style="text-align: right;">
+    09.2022 - 06.2025<br>
+    <em>GPA: 3.63/4.3, Average Score: 86.67</em>
+  </div>
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <strong>Shijiazhuang Tiedao University (STDU), Hebei, China</strong><br>
+    <em>B.E. in Information Engineering</em>
+  </div>
+  <div style="text-align: right;">
+    09.2018 - 06.2022<br>
+    <em>GPA: 3.56/4.0, Average Score: 86.65</em>
+  </div>
+</div>
 
 
-## Research Interests
+
+Research Interests
+======
 * 3D Reconstruction.
 * Simultaneous Localization and Mapping (SLAM).
 * Unmanned Ground Vehicle (UGV).
 
   
-## Publications & Patents
+Publications & Patents
+======
 _**Publications**_
 
 * __Fan, Z.__, Yifan Z., Ziyu C., Biao Y., & Hui Z.(2024). DYGS: Dense Gaussian Map Reconstruction with Visual SLAM in Dynamic Environments. _IEEE Sensors Journal_ (under review).
@@ -37,8 +57,8 @@ _**Patents**_
 * A road trajectory prediction method, device, and electronic equipment for an unmanned vehicle.
 
 
-## Research Experience
-
+Research Experience
+======
 * ***Research on 3D Reconstruction Method of Visual SLAM Based on Radiance Field (Master Thesis)***, 12.2023 - Present
   * **Overview:** Aiming at the problem that traditional visual SLAM is difficult to provide high-quality scene map and Colmap has poor real-time performance, a visual SLAM system based on 3DGS radiance fields is developed for 3D scene reconstruction tasks.
   * Studied the application of 3DGS radiance field as a map representation for synthesizing new viewpoints and reconstructing high-quality scenes.
@@ -74,16 +94,16 @@ _**Patents**_
 
   
 
-## Leadership & Social Activities
-
+Leadership & Social Activities
+======
 - **Student Member, IEEE.** *(05.2024 - Present)*
 - **Student Leader, Science and Technology Innovation Space for College Students.** *(09.2020 - 06.2022)*
 - **Excellent Student, Jiangsu Summer School for Graduate Students.** *(07.2021 - 08.2021)*
 - **Teaching Assistant, Algorithms and Data Structures.** *(09.2020 - 12.2020)*
 - **Teaching Assistant, Microcontroller Technology and Application.** *(02.2020 - 06.2020)*
 
-## Honors & Awards
-
+Honors & Awards
+======
 - **Outstanding Graduate** *(2022)* - Top 1%
 - **Excellent Graduation Thesis** *(2022)* - Top 3%
 - **First Class Academic Scholarship** *(2022)*
@@ -96,7 +116,7 @@ _**Patents**_
 - **First Prize of College Students Engineering Training Comprehensive Ability Competition** *(2020)* - Top 10%
 - **Second Prize of The Electric Design Match** *(2020)* - Top 10%
 
-## Skills
-
+Skills
+======
 - **Language:** Chinese (Native), English (Second Language)
 - **Software:** C, C++, Python, HTML, ROS, Matlab, UE5
