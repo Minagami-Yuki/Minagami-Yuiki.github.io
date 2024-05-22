@@ -21,6 +21,7 @@ Education
     <em>GPA: 3.63/4.3, Average Score: 86.67</em>
   </div>
 </div>
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <strong>Shijiazhuang Tiedao University (STDU), Hebei, China</strong><br>
@@ -31,7 +32,7 @@ Education
     <em>GPA: 3.56/4.0, Average Score: 86.65</em>
   </div>
 </div>
-
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
 
 
 Research Interests
@@ -39,7 +40,7 @@ Research Interests
 * 3D Reconstruction.
 * Simultaneous Localization and Mapping (SLAM).
 * Unmanned Ground Vehicle (UGV).
-
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
   
 Publications & Patents
 ======
@@ -53,8 +54,7 @@ _**Patents**_
 
 * __Fan Z.__, Chunjiang L., Peichen L., Zijie C., Zhonggao Li, Gesheng W., Xiaoyang Z., & Zhanfeng G.(2021). Railway Gondola Car Unloading Equipment. CN112124996B, field August 31, 2020, and issured November 05, 2021.
 * __Fan Z.__, Haishuo L, Shibo W., Xiaolong S., Zifan Z., & Haiming J.(2022). A Small Unmanned Ground Vehicle Used for Rail Tunnel Inspection. CN216783498U, field March 34, 2022, and issured June 21, 2022.
-* A road trajectory prediction method, device, and electronic equipment for an unmanned vehicle.
-
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
 
 Research Experience
 ======
@@ -90,7 +90,7 @@ Research Experience
   * Implemented a small target detection algorithm based on improved YOLOv5 to detect bolt states and static foreign objects, and the detection accuracy is 98.5\%.
   * Developed a multi-target tracking algorithm using DeepSort for detecting dynamic foreign object invasion.
   * Applied GMapping for autonomous positioning and environment modeling, enhancing location precision in complex environments.
-
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
   
 
 Leadership & Social Activities
@@ -100,6 +100,8 @@ Leadership & Social Activities
 - **Excellent Student, Jiangsu Summer School for Graduate Students.** *(07.2021 - 08.2021)*
 - **Teaching Assistant, Algorithms and Data Structures.** *(09.2020 - 12.2020)*
 - **Teaching Assistant, Microcontroller Technology and Application.** *(02.2020 - 06.2020)*
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
 
 Honors & Awards
 ======
@@ -114,8 +116,11 @@ Honors & Awards
 - **Third Prize of the 14th Chinese Collegiate Computing Competition** *(2021)* - Top 10%
 - **First Prize of College Students Engineering Training Comprehensive Ability Competition** *(2020)* - Top 10%
 - **Second Prize of The Electric Design Match** *(2020)* - Top 10%
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
 
 Skills
 ======
 - **Language:** Chinese (Native), English (Second Language)
 - **Software:** C, C++, Python, HTML, ROS, Matlab, UE5
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
