@@ -126,5 +126,7 @@ Skills
 - **Language:** Chinese (Native), English (Second Language)
 - **Software:** C, C++, Python, HTML, ROS, Matlab, UE5
 <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=Minagami-Yuki.Minagami-Yuki)
+
+
+<a href="https://info.flagcounter.com/Vscw"><img src="https://s01.flagcounter.com/mini/Vscw/bg_FFFFFF/txt_000000/border_CCCCCC/flags_0/" alt="Flag Counter" border="0"></a>
 
