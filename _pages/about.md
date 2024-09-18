@@ -11,6 +11,6 @@ redirect_from:
 I'm a Master's student in the School of Information Science and Technology, [University of Science and Technology of China (USTC)](https://ustc.edu.cn/), and be advised by Research Fellow Hui Zhu.
 My research interest includes computer vision, computer graphics, SLAM, and 3D reconstruction.
 
-You can find my CV here: [Fan Zhu's Curriculum Vitae](https://minagami-yuki.github.io/Minagami-Yuiki.github.io/cv/), and you can download it from [here](../assets/Curriculum_Vitae.pdf).
+You can find my CV here: [Fan Zhu's Curriculum Vitae](), and you can download it from [here]().
 
-[Email](zhufan_misaki@mail.ustc.edu.cn) / [Github](https://github.com/Minagami-Yuki) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/koukutou_mikiya)
+[Email](zhufan_misaki@mail.ustc.edu.cn) / [Github](https://github.com/Minagami-Yuki) / [Wechat](../images/wechat.jpg) / [CSDN]()
